@@ -13,6 +13,8 @@
         $heySteven->setup();
         $heyAmberlee = new HeyThere;
         $heyAmberlee->setup('Amberlee');
+        $heyAmber = new HeyThere;
+        $heyAmber->setup('Amber');
     ?>
 </body>
 </html>

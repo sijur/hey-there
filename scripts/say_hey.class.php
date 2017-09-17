@@ -12,7 +12,7 @@ class HeyThere
         $this->sayHey($name);
     }
 
-    public function sayHey($name)
+    private function sayHey($name)
     {
         echo "<h1>Hey there " . $name . "</h1>";
     }
