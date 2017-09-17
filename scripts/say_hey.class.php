@@ -2,18 +2,18 @@
 
 class HeyThere
 {
-    public function __construct($name)
+    public function __construct()
     {
-        $name = "Steven";
+        
     }
 
     public function setup()
     {
-        $this->sayHey();
+        $this->sayHey('Steven');
     }
 
-    private function sayHey()
+    public function sayHey($name)
     {
-        
+        echo "Hey there " . $name;
     }
 }
