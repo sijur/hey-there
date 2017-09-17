@@ -14,6 +14,6 @@ class HeyThere
 
     private function sayHey()
     {
-        echo "<"
+        
     }
 }
