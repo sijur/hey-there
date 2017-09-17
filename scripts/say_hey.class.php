@@ -7,13 +7,13 @@ class HeyThere
         
     }
 
-    public function setup()
+    public function setup($name = 'Steven')
     {
-        $this->sayHey('Steven');
+        $this->sayHey($name);
     }
 
     public function sayHey($name)
     {
-        echo "Hey there " . $name;
+        echo "<h1>Hey there " . $name . "</h1>";
     }
 }

@@ -9,8 +9,10 @@
 </head>
 <body>
     <?php
-        $hey = new HeyThere;
-        $hey->setup();
+        $heySteven = new HeyThere;
+        $heySteven->setup();
+        $heyAmberlee = new HeyThere;
+        $heyAmberlee->setup('Amberlee');
     ?>
 </body>
 </html>
