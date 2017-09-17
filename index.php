@@ -9,12 +9,10 @@
 </head>
 <body>
     <?php
-        $heySteven = new HeyThere;
-        $heySteven->setup();
-        $heyAmberlee = new HeyThere;
-        $heyAmberlee->setup('Amberlee');
-        $heyAmber = new HeyThere;
-        $heyAmber->setup('Amber');
+        $hey = new HeyThere;
+        $hey->setup();
+        $hey->setup('Amberlee');
+        $hey->setup('Amber');
     ?>
 </body>
 </html>
