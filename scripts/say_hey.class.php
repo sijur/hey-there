@@ -2,18 +2,29 @@
 
 class HeyThere
 {
+    
     public function __construct()
     {
-        
+    
     }
 
     public function setup($name = 'Steven')
     {
-        $this->sayHey($name);
+        //$this->sayHey($name);
+    }
+    
+    public function sayBye($name = 'Steven') 
+    {
+        $this::render("<h1>See you later " . $name . "</h1>");
     }
 
-    private function sayHey($name)
+    public function sayHey($name = 'Matt')
     {
-        echo "<h1>Hey there " . $name . "</h1>";
+         $this::render("<h1>Hey there " . $name . "</h1>");
+    }
+    
+    private static function render($data)
+    {
+        echo $data;
     }
 }

@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <?php include './scripts/say_hey.class.php'; ?>
+    <?php //include './scripts/say_hey_child.class.php'; ?>
 </head>
 <body>
+
     <?php
         $hey = new HeyThere;
-        $hey->setup();
-        $hey->setup('Amberlee');
-        $hey->setup('Amber');
+        $hey->sayHey('Amberlee');
+        $hey->sayBye('Amber');
+        $hey->sayHey('Jostur Highland (the writer)');
     ?>
 </body>
 </html>
